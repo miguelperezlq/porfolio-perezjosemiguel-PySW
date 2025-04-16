@@ -1,0 +1,46 @@
+/* Estilos del bloque Header */
+.header {
+    background-color: #30465b;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.header__title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.header__subtitle {
+    margin: 0.5rem 0. 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+/* Bloque Nav */
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.nav__item {
+    margin: 0;
+}
+.nav__link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color -0.3s;
+}
+.nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.nav__link--active {
+    background-color: #70bdc5;
+    font-weight: bold;
+}

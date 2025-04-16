@@ -1,0 +1,72 @@
+/* Bloque footer */
+.footer {
+    background-color: #30465b;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.footer__title {
+    margin: 2rem 0 0;
+    font-size: 1.8rem;
+}
+.footer__copyright {
+    margin: 2rem 0 0;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.contact__link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.contact__link:hover {
+    color: rgb(73, 220, 253);
+}
+
+/* Bloque social */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem 0;
+}
+.social__link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+.social__link--github:hover {
+    background-color: red;
+}
+.social__link--linkedin:hover {
+    background-color: blue;
+}
+.social__link--twitter:hover {
+    background-color: orange;
+}
+/* responsive */
+@media(max-width: 768px){
+    .section__content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav__list{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+
+}

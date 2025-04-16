@@ -1,0 +1,109 @@
+.section {
+    padding: 4rem 0;
+}
+.section--dark {
+    background-color: #f8f9fa;
+}
+.section--ligth {
+    background-color: white;
+}
+.section__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.section__title{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(50, 50, 51);
+}
+.section__content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.section__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.section__text {
+    flex: 1;
+    font-size: 1.1rem;
+}
+.card-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3x;
+}
+.card:hover {
+    transform: translateY(-5x);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card__content {
+    padding: 1.5rem;
+}
+.card__title {
+    margin: 0 0 0.5rem;
+    color: rgb(22, 45, 46);
+}
+.card_description {
+    margin: 0 0 1rem;
+    color: rgba(17, 34, 63, 0.901);
+}
+.card__link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(59, 156, 248);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.card__link:hover {
+    background-color: rgb(8, 170, 206);
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skill {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.skill__title{
+    margin: 0 0 1rem;
+    color: dodgerblue;
+    font-size: 1.3rem;
+}
+.skill__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill__item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgb(228, 226, 224);
+}
+.skill__item:last-child {
+    border-bottom: none;
+}
